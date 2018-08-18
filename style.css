@@ -1,0 +1,172 @@
+body
+{
+    /* Background pattern from subtlepatterns.com */
+    background-image: url("img/dark_mosaic.png");
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+a:link
+{
+    color: #770909;
+	text-decoration: none;
+}
+
+a:visited
+{
+    color: #770909;
+}
+
+a:hover
+{
+    color: red;
+}
+
+a:active
+{
+	color: #770909;
+}
+
+#logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    opacity: 0.75;
+    height: 380px;
+    width: 285px;
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 200ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 200ms;
+}
+
+#logo:hover
+{
+    opacity: 0.9;
+    transform: scale(1.05,1.07);
+   transition-timing-function: ease-out;
+   transition-duration: 200ms;
+   -webkit-transform: scale(1.05,1.07);
+   -webkit-transition-timing-function: ease-out
+   -webkit-transition-duration: 200ms;
+   -moz-transform: scale(1.05,1.07);
+   -moz-transition-timing-function: ease-out;
+   -moz-transition-duration: 200ms;
+   position: relative;
+   z-index: 100;
+}
+
+#container
+{
+    color: white;
+    width: 300px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text],
+input[type=password]
+{
+    width: 300px;
+    background-color: #707070;
+    color: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.8;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+    border: 2px solid #770909;
+    color: #770909;
+    font-family: 'Lato', sans-serif;
+    opacity: 1;
+}
+
+input[type=submit]
+{
+    width: 300px;
+    background-color: #770909;
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+input[type=submit]:focus
+{
+    background-color: #138e0f;
+    font-family: 'Lato', sans-serif;
+}
+
+input[type=submit]:hover
+{
+    background-color: #138e0f;
+    font-family: 'Lato', sans-serif;
+}
+
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+    text-align: center;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #770909;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #999;
+}
+input:focus:-moz-placeholder
+{
+    color: #770909;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+    color: #999;
+}
+input:focus::-moz-placeholder
+{
+    color: #770909;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+    color: #999;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #770909;
+}
+
+#footer
+{
+    font-size: 12px;
+    color: #999;
+    opacity: 0.8;
+}
